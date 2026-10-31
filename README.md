@@ -59,7 +59,7 @@ main() {
 		case 9:
 		case 10:
 		case 11:
-			printf("Ваше время года весна");
+			printf("Ваше время года осень");
 			break;
 		default:
 			printf("Месяца с таким номером не существует!!!");
@@ -73,6 +73,24 @@ main() {
 Выход: Весна
 
 <img width="399" height="105" alt="image" src="https://github.com/user-attachments/assets/4d0d688c-2055-4ae4-8351-c58db71cb047" />
+
+Ввести 12
+
+Выход: Зима
+
+<img width="396" height="51" alt="image" src="https://github.com/user-attachments/assets/a8f18e8d-5c93-45d4-b60e-7c0db6b270f3" />
+
+Ввести 6
+
+Выход: Лето
+
+<img width="378" height="54" alt="image" src="https://github.com/user-attachments/assets/6bb92b70-a38b-44d5-ba16-074c35effe9e" />
+
+Ввести 9
+
+Выход: Осень
+
+<img width="380" height="51" alt="image" src="https://github.com/user-attachments/assets/80ca4049-7a33-4e70-822e-6d66931000de" />
 
 
 # Информация о разработчике
