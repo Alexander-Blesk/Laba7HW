@@ -31,62 +31,28 @@
 
 # Реализация программы
 
-```
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-#include <locale.h>
-main() {
-	setlocale(LC_CTYPE, "RUS");
-	int x;
-	printf("Введите число вашего меcяца: ");
-	scanf("%d", &x);
-	switch (x) {
-		case 12:
-		case 1:
-		case 2:
-			printf("Ваше время года зима");
-			break;
-		case 3:
-		case 4:
-		case 5:
-			printf("Ваше время года весна");
-			break;
-		case 6:
-		case 7:
-		case 8:
-			printf("Ваше время года лето");
-			break;
-		case 9:
-		case 10:
-		case 11:
-			printf("Ваше время года осень");
-			break;
-		default:
-			printf("Месяца с таким номером не существует!!!");
-			break;
-	}
-}
-```
+Исходный код программы: [laba7HW.c](laba7HW.c)
+
 # Пример работы программы:
-Ввести 4
+**Ввести 4**
 
 Выход: Весна
 
 <img width="399" height="105" alt="image" src="https://github.com/user-attachments/assets/4d0d688c-2055-4ae4-8351-c58db71cb047" />
 
-Ввести 12
+**Ввести 12**
 
 Выход: Зима
 
 <img width="396" height="51" alt="image" src="https://github.com/user-attachments/assets/a8f18e8d-5c93-45d4-b60e-7c0db6b270f3" />
 
-Ввести 6
+**Ввести 6**
 
 Выход: Лето
 
 <img width="378" height="54" alt="image" src="https://github.com/user-attachments/assets/6bb92b70-a38b-44d5-ba16-074c35effe9e" />
 
-Ввести 9
+**Ввести 9**
 
 Выход: Осень
 
